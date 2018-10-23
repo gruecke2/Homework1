@@ -25,21 +25,26 @@ body {
     border-left: hidden;
     border-right: hidden;
     line-height: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 0;
     padding-left: 40px;
   }
   
   a {
     color: #d21034;
   }
+
+  a:hover{
+    color: green;
+  }
   
   .container {
     clear: both;
     width: 930px;
-    margin: 20px auto;
+    margin: 40px auto;
     height: 500px;
     padding: 15px;
     background: steelblue;
+
   }
   
   #main-bio,
@@ -49,7 +54,7 @@ body {
   }
   
   #main-bio {
-    width: 70%;
+    width: inherit;
   }
   
   #contact-info {
@@ -73,14 +78,20 @@ body {
     padding-top: 20px;
     background-color: #333;
     color: white;
+    border-style: solid;
+    border-bottom: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-top-color: dimgray;
   }
 
   #aboutPara{
-
+    margin-left: 10px;
   }
 
   #headerContent{
     display: flex;
+    margin: auto;
   }
 
   #nav{
@@ -96,7 +107,7 @@ body {
   }
 
   #header{
-    width: 960px;
+    width: 100%;
     background-color: #333;
     display: flex;
     margin: 0 auto;
