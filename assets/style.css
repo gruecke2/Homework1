@@ -8,10 +8,6 @@ body {
     background: #efeee7;
   }
   
-  header {
-    background: #d21034;
-  }
-  
   h1 {
     padding: 20px 0;
     margin: 0;
@@ -31,8 +27,12 @@ body {
   }
   
   .container {
-    width: 1024px;
+    clear: both;
+    width: 930px;
     margin: 0 auto;
+    height: 500px;
+    padding: 15px;
+    background: rgb(38, 182, 218);
   }
   
   #main-bio,
@@ -50,7 +50,36 @@ body {
   }
   
   #bio-image {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 280px;
     margin-right: 20px;
+  }
+
+  #footer{
+    clear: both;
+    overflow: auto;
+    text-align: center;
+    width: auto;
+    height: 40px;
+    padding: 30px 30px 30px 30px;
+    background-color: #333;
+    color: white;
+  }
+
+  #nav{
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    
+  }
+
+  #name{
+    
+  }
+
+  #header{
+    width: 960px;
+    background-color: #333;
+    display: flex;
+    margin: 0 auto;
   }
