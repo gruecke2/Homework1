@@ -5,13 +5,13 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #333;
-    background: #efeee7;
+    background-image: url("folk-pattern-black.png");
+    /* background: #efeee7; */
   }
   
   h1 {
-    padding: 20px 0;
+    padding: 20px;
     margin: 0;
-    margin-bottom: 20px;
     font-size: 28px;
     color: #eee;
     text-align: center;
@@ -19,7 +19,14 @@ body {
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 35px;
+    border-style: double;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    line-height: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
   }
   
   a {
@@ -29,10 +36,10 @@ body {
   .container {
     clear: both;
     width: 930px;
-    margin: 0 auto;
+    margin: 20px auto;
     height: 500px;
     padding: 15px;
-    background: rgb(38, 182, 218);
+    background: steelblue;
   }
   
   #main-bio,
@@ -56,25 +63,36 @@ body {
   }
 
   #footer{
-    clear: both;
-    overflow: auto;
+    font-size: 75%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     text-align: center;
-    width: auto;
-    height: 40px;
-    padding: 30px 30px 30px 30px;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
     background-color: #333;
     color: white;
+  }
+
+  #aboutPara{
+
+  }
+
+  #headerContent{
+    display: flex;
   }
 
   #nav{
     background-color: #333;
     text-align: center;
     padding: 20px;
+    margin-left: 425px;
     
   }
 
   #name{
-    
+    background-color: steelblue;
   }
 
   #header{
