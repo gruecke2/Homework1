@@ -29,7 +29,7 @@ h2 {
   padding-left: 40px;
 }
 
-a {
+a.nav {
   color: #d21034;
 }
 
@@ -92,7 +92,7 @@ a:hover {
   margin: auto;
 }
 
-#nav {
+.nav {
   background-color: #333;
   text-align: center;
   padding: 20px;
@@ -158,4 +158,26 @@ input[type=submit]:hover {
 
 #emailText{
   width: -webkit-fill-available;
+}
+
+.projectImg{
+  width: 200px;
+}
+
+.card{
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  float: left;
+  margin-right: 20px;
+}
+
+#main-portfolio{
+
+}
+
+.imgTxt{
+  text-align: center;
+  padding: 10px 20px;
 }
