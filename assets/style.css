@@ -1,114 +1,161 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background-image: url("folk-pattern-black.png");
-    /* background: #efeee7; */
-  }
-  
-  h1 {
-    padding: 20px;
-    margin: 0;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-    background: #333;
-  }
-  
-  h2 {
-    font-size: 35px;
-    border-style: double;
-    border-top: hidden;
-    border-left: hidden;
-    border-right: hidden;
-    line-height: 40px;
-    padding-bottom: 0;
-    padding-left: 40px;
-  }
-  
-  a {
-    color: #d21034;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background-image: url("folk-pattern-black.png");
+  /* background: #efeee7; */
+}
 
-  a:hover{
-    color: green;
-  }
-  
-  .container {
-    clear: both;
-    width: 930px;
-    margin: 40px auto;
-    height: 500px;
-    padding: 15px;
-    background: steelblue;
+h1 {
+  padding: 20px;
+  margin: 0;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background: #333;
+}
 
-  }
-  
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
-  }
-  
-  #main-bio {
-    width: inherit;
-  }
-  
-  #contact-info {
-    width: 30%;
-  }
-  
-  #bio-image {
-    width: 300px;
-    height: 280px;
-    margin-right: 20px;
-  }
+h2 {
+  font-size: 35px;
+  border-style: double;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  line-height: 40px;
+  padding-bottom: 0;
+  padding-left: 40px;
+}
 
-  #footer{
-    font-size: 75%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    padding-top: 20px;
-    background-color: #333;
-    color: white;
-    border-style: solid;
-    border-bottom: hidden;
-    border-left: hidden;
-    border-right: hidden;
-    border-top-color: dimgray;
-  }
+a {
+  color: #d21034;
+}
 
-  #aboutPara{
-    margin-left: 10px;
-  }
+a:hover {
+  color: green;
+}
 
-  #headerContent{
-    display: flex;
-    margin: auto;
-  }
+.container {
+  clear: both;
+  width: 930px;
+  margin: 40px auto;
+  height: 500px;
+  padding: 15px;
+  background: steelblue;
+  border-radius: 5px;
+}
 
-  #nav{
-    background-color: #333;
-    text-align: center;
-    padding: 20px;
-    margin-left: 425px;
-    
-  }
+#main-bio, #contact-info, #bio-image {
+  float: left;
+}
 
-  #name{
-    background-color: steelblue;
-  }
+#main-bio {
+  width: inherit;
+}
 
-  #header{
-    width: 100%;
-    background-color: #333;
-    display: flex;
-    margin: 0 auto;
-  }
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 300px;
+  height: 280px;
+  margin-right: 20px;
+}
+
+#footer {
+  font-size: 75%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  background-color: #333;
+  color: white;
+  border-style: solid;
+  border-bottom: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-top-color: dimgray;
+}
+
+#aboutPara {
+  margin-left: 10px;
+}
+
+#headerContent {
+  display: flex;
+  margin: auto;
+}
+
+#nav {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+  margin-left: 425px;
+}
+
+#name {
+  background-color: steelblue;
+}
+
+#header {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  margin: 0 auto;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form-group{
+  height: 300px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+#name{
+
+}
+
+#email{
+  margin-top: 25px;
+}
+
+#message{
+  margin-top: 25px;
+}
+
+#mailForm{
+
+}
+
+#emailText{
+  width: -webkit-fill-available;
+}

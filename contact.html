@@ -21,86 +21,60 @@ Homework1
 </head>
 
 <body>
-  <header class="primary-nav">
-    <h1><a href="index.html">Me Page</a></h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="family.html">My Family</a>
-      <a href="hobbies.html">My Hobbies</a>
-      <a href="pictures.html">My Picture Gallery</a>
-      <a href="contact.html">Contact Me</a>
-    </nav>
-  </header>
-
-  <section class="center-wrapper">
-
-    <div class="container">
-
-      <section>
-        <div>
-          <h2>Why you should contact me</h2>
-          <h5>Use this form to message me</h5>
-          Drop me a line here!
-          <h4>Why send a message?</h4>
-          <ul id="contact-list">
-            <li>I am very interesting and cool</li>
-            <li>Other contact info is here:</li>
-            <li>Phone: 801-661-6312</li>
-            <li>Email: gruecke2@bruinmail.slcc.edu</li>
-          </ul>
-        </div>
-      </section>
-      <form action="mailto:garret.rueckert.guitar@gmail.com" method="post">
-        <fieldset class="form-group">
-
-          <label>
-         Name
-         <input type="text" name="name" placeholder="Full name"
-        required>
-         </label>
-
-          <label>
-         Email
-         <input type="email" name="email" placeholder="Email address"
-        required>
-         </label>
-
-          <label>
-         Rate my site:
-         <select name="rating" required>
-         <option value="1" selected>1</option>
-         <option value="2">2</option>
-         <option value="3">3</option>
-         <option value="4">4</option>
-         <option value="5">5</option>
-         </select>
-         </label>
-
-          <label>
-         Comments
-         <textarea name="comments"></textarea>
-         </label>
-
-        </fieldset>
-
-        <input class="btn btn-default" type="submit" name="submit" value="Send">
+  <div id="header">
+    <div id="headerContent">
+      <h1 id="name">Garret Rueckert</h1>
+      <nav id="nav">
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact Me</a>
+      </nav>
+    </div>
+  </div>
 
 
-      </form>
-  </section>
+  <div class="container">
+    <section>
+      <h2>Contact</h2>
+    </section>
+
+    <form id="mailForm" action="mailto:garret.rueckert.guitar@gmail.com" method="post">
+      <fieldset class="form-group">
+
+        <label id="name">
+       Name
+       <input type="text" name="name" placeholder="Full name"
+      required>
+       </label>
+
+        <label id="email">
+       Email
+       <input id="emailText" type="email" name="email" placeholder="Email address"
+      required>
+       </label>
+
+        <label id="message">
+       Message
+       <textarea name="comments"></textarea>
+       </label>
+
+      </fieldset>
+
+      <input class="btn btn-default" type="submit" name="submit" value="Send">
+
+
+    </form>
+
+    
 
   </div>
   </section>
 
   <div id="footer">
     Page by Garret Rueckert
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="family.html">My Family</a>
-      <a href="hobbies.html">My Hobbies</a>
-      <a href="pictures.html">My Picture Gallery</a>
-      <a href="contact.html">Contact Me</a>
-    </nav>
+
+    <a href="index.html">Home</a>
+
   </div>
 
 </body>
